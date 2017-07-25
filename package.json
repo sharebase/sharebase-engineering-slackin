@@ -1,0 +1,26 @@
+{
+  "name": "sharebase-slackin",
+  "version": "1.0.0",
+  "description": "Deploy `rauchg/slackin` to Now in one command",
+  "scripts": {
+    "start": "slackin --coc \"$SLACK_COC\" --channels \"$SLACK_CHANNELS\" $SLACK_SUBDOMAIN $SLACK_API_TOKEN"
+  },
+  "keywords": [
+    "now",
+    "slack",
+    "slackin"
+  ],
+  "author": "Shoichi Aizawa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharebase/sharebase-slackin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sharebase/sharebase-slackin/issues"
+  },
+  "homepage": "https://github.com/sharebase/sharebase-slackin#readme",
+  "dependencies": {
+    "slackin": "^0.13.0"
+  }
+}
